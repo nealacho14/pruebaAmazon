@@ -7,7 +7,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features="src\\test\\resources\\features\\amazon.feature",
+        features="src\test\resources\features\amazon.feature",
         glue = "com.amazon.steps",
         snippets = CAMELCASE
        )
